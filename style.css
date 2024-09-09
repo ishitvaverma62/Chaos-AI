@@ -4,7 +4,8 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
       background-image: url(ai.jpg);
-      
+       background-repeat: no-repeat;
+            background-size: cover;
 }
 nav {
   background-color: #333;
@@ -178,11 +179,13 @@ h1 {
 h2 {
   font-size: 32px;
   margin-bottom: 15px;
+   color: #FFFFE0;
 }
 
 p {
   line-height: 1.5;
   margin-bottom: 15px;
+   color: #FFFFE0;
 }
 
 section {
