@@ -1,0 +1,215 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+     
+      
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+nav ul li a:hover {
+  background-color: #555;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+    body {margin:0;}
+
+.icon-bar {
+width: 100%;
+background-color: #555;
+overflow: auto;
+}
+
+.icon-bar a {
+float: left;
+width: 20%;
+text-align: center;
+padding: 12px 0;
+transition: all 0.3s ease;
+color: white;
+font-size: 36px;
+}
+
+.icon-bar a:hover {
+background-color: #000;
+}
+
+.active {
+background-color: #04AA6D;
+}
+body {margin:0;}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: #04AA6D;
+}
+.card p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+        text-align: center;
+}
+    .card {
+  background-color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  padding: 20px;
+  max-width: 420px;
+  text-align: center;
+  transition: ease-out 0.3s;
+  border: 3px solid #42fbf2;
+  border-radius: 4px;
+  z-index: 1;
+  position: relative;
+  outline: none;
+}
+.card:hover{
+color: #fff;
+cursor: pointer;
+}
+.card::before{
+transition: 0.5s all ease;
+position: absolute;
+top: 0;
+left: 50%;
+right: 50%;
+bottom: 0;
+opacity: 0;
+content: "";
+background-color: #42fbf2;
+}
+.card:hover:before{
+transition: 0.5s all ease;
+left: 0;
+right: 0;
+opacity: 1;
+z-index: -1;
+
+
+}
+.card h2 {
+  color: #4d4d4d;
+  font-size: 24px;
+  margin-bottom: 10px;
+        text-align: center;
+        
+    } 
+        .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+        text-align: center;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Additional styling for a more modern look */
+section {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Consider using a CSS framework like Bootstrap or Materialize for pre-designed components and styles */
